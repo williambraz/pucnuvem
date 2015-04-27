@@ -1,5 +1,5 @@
 <?php
-    require_once("../../banco/conexao.php");
+    require_once("./banco/conexao.php");
 ?>
 
 <?php
