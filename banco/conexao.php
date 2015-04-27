@@ -1,8 +1,8 @@
 <?php
-	/*$servidor = 'localhost';
-    	$usuario = 'root';
-	$senha = '';
-	$banco = '';*/
+	$servidor = 'br-cdbr-azure-south-a.cloudapp.net';
+   	$usuario = 'ba1eea200d28a5';
+	$senha = '24c95859';
+	$banco = 'bancopuc';
 
 	// Conecta-se ao banco de dados MySQL
 	$mysqli = new mysqli($servidor, $usuario, $senha, $banco);
