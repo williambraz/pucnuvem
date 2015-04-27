@@ -1,6 +1,6 @@
 <?php
 
-require_once("./banco/conexao.php");
+require_once("../../banco/conexao.php");
 require_once("./sessao.php");
 
 $senha = htmlspecialchars($_POST['senha']);

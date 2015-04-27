@@ -1,5 +1,5 @@
 <?php
-    require_once("./banco/conexao.php");
+    require_once("../../banco/conexao.php");
     require_once("./Pessoa.class.php");
     require_once("./Usuarios.class.php");
 

@@ -1,6 +1,6 @@
 <?php
 
-require_once("./banco/conexao.php");
+require_once("../../banco/conexao.php");
 require_once("./sessao.php");
 
 $arquivoFoto = utf8_encode(htmlspecialchars($_FILES['arquivoFoto']["name"]));

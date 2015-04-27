@@ -2,7 +2,7 @@
 
   session_start();
   
-  require_once("./banco/conexao.php");
+  require_once("../../banco/conexao.php");
   
   function validaUsuario($login, $senha, $conexao)
   {

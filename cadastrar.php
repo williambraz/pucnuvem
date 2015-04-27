@@ -1,6 +1,6 @@
 <?php
 
-require_once("./banco/conexao.php");
+require_once("../../banco/conexao.php");
 
 header('Content-Type: text/html; charset=utf-8');
 
