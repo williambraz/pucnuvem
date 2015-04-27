@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body
+{
+	background-color: #2B7F97;
+}
+
+.container
+{
+	box-shadow: 0 0 8px 2px rgba(0,0,0,.75);
+	background-color: #FFF;
+}
+
+small
+{
+	font-size: .8em;
+}
+
+a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+a:hover
+{
+	color:#000;
+	text-decoration:none;
+}
+
+a img
+{
+	border:0;
+}
+
+a img:hover
+{
+   	opacity:1;
+	/*filter: alpha(opacity=100); para ie7 e ie8 */
+}
+
+p
+{
+	color:#FFF;
+	font-size: 1em;
+	font-family: 'Port Lligat Slab', serif;
+	margin-top: 1em; 
+}
+
+label
+{
+	color:#000;
+	font-size: 1em;
+	font-family: 'Port Lligat Slab', serif;
+}
+
+figcaption
+{
+	color:#FFF;
+	font-size:.9em;
+	font-family: 'Port Lligat Slab', serif
+}
+
+header
+{
+	text-align:center;
+	margin: 0 auto;
+	padding: 10px 10px;
+}
+
+h1
+{
+	background-color: #2B7F97;
+	font-family: 'Russo One', sans-serif;
+	height:120px;
+	font-size:2.5em;
+	color:#FFF;
+	line-height:120px;
+	text-align:left;
+	margin: 15px -25px 15px -25px;
+}
+
+h2
+{
+	font-size: 1.3em;
+	color:#FFF;
+	font-family: 'Port Lligat Slab', serif;
+	margin-top: 1em;
+}
+
+h3
+{
+	font-size: 1.3em;
+	color:#000;
+	font-family: 'Port Lligat Slab', serif;
+	margin-top: 1em;
+}
+
+footer
+{
+	clear:both;
+	padding: 10px;
+	text-align:center;
+}
+
+.form_botoes
+{
+	margin: 0px auto;
+	text-align: center;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.thumbs
+{
+	padding: 10px 10px;
+	margin: 10px 5px;
+	text-align:center;
+	background-color:#2B7F97;
+	width: 140px;
+	height: 170px;
+	color:#FFF;
+	display: inline-block;
+}
+
+.thumbs img
+{
+	width: 100px;
+	height: 133px;
+	
+	opacity:0.6;
+	margin: 0 auto;
+	/* filter: alpha(opacity=60);  para ie7 e ie8 */
+}
+
+.linkpreto
+{
+	text-decoration:underline;
+	color:#000;
+}
+
+#menu
+{
+	background-color:#2B7F97;
+	text-align: center;
+    color:#FFF;
+	font-size: 1em;
+	padding: 0px 10px;
+	margin: 0px -15px;
+	font-family: 'Port Lligat Slab', serif;
+
+}
+
+#voltar
+{
+	background-color:#2B7F97;
+	text-align: center;
+	margin: 10px 0px -10px 0px;
+}
+
+#menu *
+{
+    vertical-align: middle;
+}
+
+#menu li
+{
+	color: #FFF;
+}
+
+#menu img
+{
+	width:40px;
+	padding: 5px;
+}
+
+.fonte_preta
+{
+	color: #000;
+}
+
+#aviso p
+{
+	color:#000;
+}
+
+#cadastramento
+{
+	padding: 10px 0px;
+	text-align:center;
+}
+
+#fotos 
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#lista_usuarios
+{
+	text-align: center;
+}
+
+#usuario
+{
+	background-color:#2B7F97;
+	margin: 0px auto;
+	padding: 10px 10px 10px 10px;
+}
+
+#imagem_profile 
+{
+	margin: 0 auto;
+	text-align: center;
+	display: table;
+}
+
+#informacoes
+{
+	margin: 0 auto;
+	color:#FFF;
+}
+
+#busca
+{
+	display:block;
+	margin:0 auto;
+	background-color:#2B7F97;
+    list-style:none;
+    padding:10px;
+    text-align:center;	
+}
+
+#perfil_visitado
+{
+	display:block;
+	margin:0 auto;
+	color: #000;
+    list-style:none;
+    text-align:center;	
+    padding-top: 5px;
+}
+
+#perfil_visitado p
+{
+	color: #000;
+}
+
+#intro
+{
+	margin:0 auto;
+	margin-bottom: 15px;
+	background-color:#2B7F97;
+    list-style:none;
+    padding:10px 10px;
+    text-align:center;	
+}
+
+.img-responsive 
+{
+	text-align: center;
+	min-width: 80px;
+	max-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+	#row_menu_home 
+	{	
+		margin: 0px;
+	}
+
+	.menu_home 
+	{	
+		padding: 10px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	#menu 
+	{	
+		margin: 0px 0px !important;
+	}	
+}
