@@ -1,6 +1,8 @@
 Yearbook-Bootstrap
 ==================
 
-Yearbook para a Pós-Graduação de Desenvolvimento Web da PUC-MG
+Yearbook para a Pós-Graduação de Desenvolvimento Web da PUC-MG.
 
-Pode ser acessado em http://williambraz.com.br/yearbook2/
+Versão Windows Azure.
+
+Pode ser acessado em http://pucnuvem.azurewebsites.net/
